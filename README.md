@@ -37,9 +37,9 @@ staring master Node and all the nodes. You can start up as much node as u wanted
 
 sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster"  <br>
 sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2553" <br>
-sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2554"
-sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2555"
-sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2556"
+sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2554" <br>
+sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2555" <br>
+sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2556" <br>
 
 
 
