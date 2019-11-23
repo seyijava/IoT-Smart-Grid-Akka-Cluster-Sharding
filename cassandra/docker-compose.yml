@@ -1,0 +1,12 @@
+
+---
+version: '2'
+services:
+    cassandra:
+      image: bitnami/cassandra:latest
+      volumes:
+        - /home/adminuser/docker-compose-repo/cassandra/cassandra-persistence:/bitnami
+      ports:
+      - "9042:9042"    
+    
+     

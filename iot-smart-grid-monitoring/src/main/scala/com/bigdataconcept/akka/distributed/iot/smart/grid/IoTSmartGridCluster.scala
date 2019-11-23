@@ -23,7 +23,8 @@ object IoTSmartGridCluster {
   
    def startup(ports: Seq[String]): Unit ={
        ports foreach { port =>
-       System.out.println("Port" + port)
+      
+         System.out.println("Node Port" + port)
        
         val config = ConfigFactory.parseString("akka.remote.artery.canonical.port=" + port).withFallback(ConfigFactory.load())   
        
@@ -51,7 +52,7 @@ object IoTSmartGridCluster {
          
          val inboundTelemetryManagerActor = smartGridMonitoringSystem.actorOf(InboundIoTMQTTTelemetryManagerActor.props(brokerUrl, topic, shardingRegion))
            
-           inboundTelemetryManagerActor ! SubscribeToTopicRequest
+             inboundTelemetryManagerActor ! SubscribeToTopicRequest
           }
        } 
    }
