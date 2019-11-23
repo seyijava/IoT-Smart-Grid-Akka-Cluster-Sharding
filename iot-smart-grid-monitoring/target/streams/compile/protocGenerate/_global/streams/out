@@ -1,0 +1,33 @@
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 protobuf files to C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\target\scala-2.12\src_managed\main,C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\target\scala-2.12\src_managed\main,C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\target\scala-2.12\src_managed\main,C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\target\scala-2.12\src_managed\main[0m
+[0m[[0m[0mdebug[0m] [0m[0mprotoc options:[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling schema C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\src\main\protobuf\models.proto[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: protoc returned exit code: 1[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.package$.error(package.scala:30)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtprotoc.ProtocPlugin$.compile(ProtocPlugin.scala:197)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtprotoc.ProtocPlugin$.compileProto$1(ProtocPlugin.scala:245)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtprotoc.ProtocPlugin$.$anonfun$sourceGeneratorTask$4(ProtocPlugin.scala:253)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.FileFunction$.$anonfun$cached$1(FileFunction.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.FileFunction$.$anonfun$cached$4(FileFunction.scala:146)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Difference.apply(Tracked.scala:323)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Difference.apply(Tracked.scala:303)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.FileFunction$.$anonfun$cached$3(FileFunction.scala:142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Difference.apply(Tracked.scala:323)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Difference.apply(Tracked.scala:298)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.FileFunction$.$anonfun$cached$2(FileFunction.scala:141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtprotoc.ProtocPlugin$.$anonfun$sourceGeneratorTask$1(ProtocPlugin.scala:259)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:280)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:289)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:280)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mprotocGenerate[0m) protoc returned exit code: 1[0m

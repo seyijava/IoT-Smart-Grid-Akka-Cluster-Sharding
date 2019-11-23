@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\src\main\scala\com\bigdataconcept\akka\distributed\iot\smart\grid\IoTSmartGridCluster.scala:32:37: method apply in object ActorMaterializer is deprecated (since 2.6.0): Use the system wide materializer with stream attributes or configuration settings to change defaults[0m
+[0m[[0m[33mwarn[0m] [0m[0m        implicit val materializer = ActorMaterializer()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\src\main\scala\com\bigdataconcept\akka\distributed\iot\smart\grid\actors\InboundIoTMQTTTelemetryManagerActor.scala:44:38: method apply in object ActorMaterializer is deprecated (since 2.6.0): Use the system wide materializer with stream attributes or configuration settings to change defaults[0m
+[0m[[0m[33mwarn[0m] [0m[0m         implicit val materializer = ActorMaterializer()[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

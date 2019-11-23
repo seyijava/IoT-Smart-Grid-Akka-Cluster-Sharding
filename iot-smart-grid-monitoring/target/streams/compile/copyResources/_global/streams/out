@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\src\main\resources\application.conf,C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\target\scala-2.12\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\src\main\resources\logback.xml,C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\target\scala-2.12\classes\logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\src\main\resources\mttq.conf,C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\target\scala-2.12\classes\mttq.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\src\main\resources\reference.conf,C:\MyRepo\MicroService\akka-app\distributed-smart-iot\iot-smart-grid-monitoring\target\scala-2.12\classes\reference.conf)[0m

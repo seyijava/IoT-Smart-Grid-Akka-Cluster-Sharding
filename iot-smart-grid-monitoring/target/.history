@@ -1,0 +1,3 @@
+sbt run
+sbt run IOTSmartGridServer
+exit
