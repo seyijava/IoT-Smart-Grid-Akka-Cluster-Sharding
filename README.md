@@ -33,7 +33,7 @@ Start IoT Smart Grid
 
 cd iot-smart-grid-monitoring
 
-staring master Node and all the nodes. You can start up as much node as u wanted with a distinct port on same JVM
+Starting master Node and all the nodes. You can start up as much node as u wanted with a distinct port on same JVM
 
 sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster"  <br>
 sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2553" <br>
