@@ -35,8 +35,8 @@ cd iot-smart-grid-monitoring
 
 staring master Node and all the nodes. You can start up as much node as u wanted with a distinct port on same JVM
 
-sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster" 
-sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2553"
+sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster"  <br>
+sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2553" <br>
 sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2554"
 sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2555"
 sbt "runMain com.bigdataconcept.akka.distributed.iot.smart.grid.IoTSmartGridCluster 2556"
