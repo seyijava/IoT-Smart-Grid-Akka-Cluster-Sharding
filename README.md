@@ -7,7 +7,8 @@ sudo docker run -p 8080:8080 -p 1883:1883 hivemq/hivemq4
 
 Start Cassandara Server
 
-cd Cassandara
+cd Cassandara <br>
+
 sudo docker-compose up
 
 Start  Kafka 
